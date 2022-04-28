@@ -3,14 +3,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "ErrorUtilities",
+    name: "iOS.ErrorUtilities",
     platforms: [
         .iOS(.v9),
         .watchOS(.v4)
     ],
     products: [
         .library(
-            name: "ErrorUtilities",
+            name: "iOS.ErrorUtilities",
             targets: ["ErrorUtilities"]),
     ],
     targets: [
