@@ -3,19 +3,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "iOS.ErrorUtilities",
+    name: "ErrorUtilities",
     platforms: [
         .iOS(.v9),
         .watchOS(.v4)
     ],
     products: [
         .library(
-            name: "iOS.ErrorUtilities",
-            targets: ["iOS.ErrorUtilities"]),
+            name: "ErrorUtilities",
+            targets: ["ErrorUtilities"]),
     ],
     targets: [
         .target(
-            name: "iOS.ErrorUtilities",
+            name: "ErrorUtilities",
             path: "ErrorUtilities/"
         )
     ]
